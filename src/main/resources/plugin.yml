@@ -1,0 +1,3 @@
+name: ArmedWars
+version: '${project.version}'
+main: me.owls.armedwars.ArmedWars
