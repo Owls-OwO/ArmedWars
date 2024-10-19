@@ -3,7 +3,7 @@ package commands.subs;
 import commands.types.ISubCommand;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import utils.ColotTextMessage;
+import utils.messages.ColotTextMessage;
 
 public class Help_sub implements ISubCommand {
     @Override

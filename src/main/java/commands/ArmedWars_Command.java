@@ -2,6 +2,7 @@ package commands;
 
 import commands.subs.Arena_sub;
 import commands.subs.Help_sub;
+import commands.subs.List_sub;
 import commands.types.ISubCommand;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -17,6 +18,7 @@ public class ArmedWars_Command implements CommandExecutor {
     static {
         subCommands.put("arena", new Arena_sub());
         subCommands.put("help", new Help_sub());
+        subCommands.put("list", new List_sub());
 
     }
 
